@@ -1,10 +1,13 @@
 {
   "name": "@fardream/confirm-solana-transaction",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Confirm solana transaction with last valid block height.",
   "main": "lib/index.js",
+  "keywords": [
+    "api",
+    "blockchain"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "clean": "rm -rf lib",
     "prepare": "npm run clean && npm run build"
