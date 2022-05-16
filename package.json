@@ -1,0 +1,28 @@
+{
+  "name": "@fardream/confirm-solana-transaction",
+  "version": "1.0.0",
+  "description": "Confirm solana transaction with last valid block height.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "clean": "rm -rf lib",
+    "prepare": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fardream/confirm-solana-transaction.git"
+  },
+  "author": "Chao Xu <fardream@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fardream/confirm-solana-transaction/issues"
+  },
+  "homepage": "https://github.com/fardream/confirm-solana-transaction#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@solana/web3.js": ">=1.32.1"
+  }
+}
